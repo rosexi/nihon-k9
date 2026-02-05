@@ -1,7 +1,7 @@
 interface ImagePlaceholderProps {
   label?: string;
   className?: string;
-  aspectRatio?: "square" | "video" | "wide";
+  aspectRatio?: "square" | "video" | "wide" | "portrait";
 }
 
 export default function ImagePlaceholder({
@@ -13,6 +13,7 @@ export default function ImagePlaceholder({
     square: "aspect-square",
     video: "aspect-video",
     wide: "aspect-[21/9]",
+    portrait: "aspect-[3/4]",
   };
 
   return (
