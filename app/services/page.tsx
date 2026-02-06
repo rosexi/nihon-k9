@@ -12,7 +12,7 @@ export default function Services() {
     <div>
       {/* Hero */}
       <section className="bg-card">
-        <div className="mx-auto max-w-5xl px-6 py-16 md:py-20">
+        <div className="mx-auto max-w-5xl px-6 py-12 md:py-16">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6 text-foreground">
               Services
@@ -30,15 +30,15 @@ export default function Services() {
       </section>
 
       {/* Services */}
-      <section className="mx-auto max-w-5xl px-6 py-16">
+      <section className="mx-auto max-w-5xl px-6 py-12">
         <div className="space-y-8">
           {/* Foundation Program */}
-          <div className="bg-card border border-border rounded-2xl p-8 md:p-10">
+          <div className="bg-card border border-border rounded-md p-8 md:p-10">
             <div className="flex flex-wrap items-center gap-4 mb-6">
               <h2 className="text-2xl md:text-3xl font-semibold text-foreground">
                 Foundation Program
               </h2>
-              <span className="text-sm font-medium bg-warm text-accent px-3 py-1 rounded-full">
+              <span className="text-sm font-medium bg-accent/10 text-accent px-3 py-1 rounded">
                 1+ Years
               </span>
             </div>
@@ -95,12 +95,12 @@ export default function Services() {
           </div>
 
           {/* Service Dog Program */}
-          <div className="bg-card border border-border rounded-2xl p-8 md:p-10">
+          <div className="bg-card border border-border rounded-md p-8 md:p-10">
             <div className="flex flex-wrap items-center gap-4 mb-6">
               <h2 className="text-2xl md:text-3xl font-semibold text-foreground">
                 Service Dog Program
               </h2>
-              <span className="text-sm font-medium bg-warm text-accent px-3 py-1 rounded-full">
+              <span className="text-sm font-medium bg-accent/10 text-accent px-3 py-1 rounded">
                 2+ Years
               </span>
             </div>
@@ -136,7 +136,7 @@ export default function Services() {
           </div>
 
           {/* Private Training */}
-          <div className="bg-card border border-border rounded-2xl p-8 md:p-10">
+          <div className="bg-card border border-border rounded-md p-8 md:p-10">
             <h2 className="text-2xl md:text-3xl font-semibold text-foreground mb-6">
               Private Training
             </h2>
@@ -146,7 +146,7 @@ export default function Services() {
             <p className="text-muted leading-relaxed mb-6 max-w-3xl">
               Sessions are flexible—weekly or monthly depending on your needs—and focused on continued growth as you and your dog evolve together.
             </p>
-            <div className="bg-warm/50 border border-warm rounded-lg p-4">
+            <div className="bg-accent/5 border border-accent/20 rounded-md p-4">
               <p className="text-sm text-foreground">
                 <strong>Availability:</strong> Due to capacity, private training is only available to students graduating from one of our programs.
               </p>
@@ -156,7 +156,7 @@ export default function Services() {
 
         {/* CTA */}
         <div className="mt-16 text-center">
-          <div className="bg-warm/30 rounded-2xl p-8 md:p-12">
+          <div className="bg-accent/5 border border-accent/20 rounded-md p-8 md:p-12">
             <h3 className="text-2xl font-semibold mb-4 text-foreground">
               Interested in Working With Us?
             </h3>
@@ -166,7 +166,7 @@ export default function Services() {
             </p>
             <Link
               href="/contact"
-              className="inline-flex items-center justify-center px-8 py-3 bg-accent text-white font-medium rounded-lg hover:bg-accent-hover transition-colors"
+              className="inline-flex items-center justify-center px-8 py-3 bg-accent text-white uppercase tracking-wide text-sm font-semibold rounded-md hover:bg-accent-hover transition-colors"
             >
               Get in Touch
             </Link>

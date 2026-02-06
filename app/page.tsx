@@ -32,13 +32,13 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/philosophy"
-              className="inline-flex items-center justify-center px-8 py-3 bg-accent text-white font-medium rounded-lg hover:bg-accent-hover transition-colors"
+              className="inline-flex items-center justify-center px-8 py-3 bg-accent text-white uppercase tracking-wide text-sm font-semibold rounded-md hover:bg-accent-hover transition-colors"
             >
               Our Approach
             </Link>
             <Link
               href="/services"
-              className="inline-flex items-center justify-center px-8 py-3 border border-border text-foreground font-medium rounded-lg hover:bg-white/50 transition-colors"
+              className="inline-flex items-center justify-center px-8 py-3 border-2 border-accent text-accent uppercase tracking-wide text-sm font-semibold rounded-md hover:bg-accent hover:text-white transition-colors"
             >
               View Services
             </Link>
@@ -47,10 +47,10 @@ export default function Home() {
       </section>
 
       {/* Intro Section */}
-      <section className="mx-auto max-w-5xl px-6 py-16 md:py-20">
+      <section className="mx-auto max-w-5xl px-6 py-12 md:py-16">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="order-2 md:order-1">
-            <div className="aspect-[3/4] relative rounded-lg overflow-hidden shadow-md">
+            <div className="aspect-[3/4] relative rounded-md overflow-hidden shadow-sm">
               <Image
                 src="/training.jpg"
                 alt="Training a Nihon Ken"
@@ -84,7 +84,7 @@ export default function Home() {
 
       {/* Expertise Section */}
       <section className="bg-card">
-        <div className="mx-auto max-w-5xl px-6 py-16 md:py-20">
+        <div className="mx-auto max-w-5xl px-6 py-12 md:py-16">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-foreground">
@@ -97,7 +97,7 @@ export default function Home() {
                 We&apos;ve built young dogs into successful, competitive sports dogs—whether in agility, scentwork, barn hunt, or obedience—proving that Nihon Ken can excel when trained with the right approach.
               </p>
             </div>
-            <div className="aspect-[3/4] relative rounded-lg overflow-hidden shadow-md">
+            <div className="aspect-[3/4] relative rounded-md overflow-hidden shadow-sm">
               <Image
                 src="/expertise.jpg"
                 alt="Shikoku Ken exploring outdoors"
@@ -111,7 +111,7 @@ export default function Home() {
 
       {/* Services Preview */}
       <section className="bg-background">
-        <div className="mx-auto max-w-5xl px-6 py-16 md:py-20">
+        <div className="mx-auto max-w-5xl px-6 py-12 md:py-16">
           <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-center text-foreground">
             Our Services
           </h2>
@@ -119,8 +119,8 @@ export default function Home() {
             Long-term training designed for lasting results with independent breeds.
           </p>
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-background p-8 rounded-xl border border-border">
-              <h3 className="text-xl font-semibold mb-2 text-accent">
+            <div className="bg-background p-8 rounded-md border border-border">
+              <h3 className="text-lg font-bold uppercase tracking-wide mb-2 text-accent">
                 Foundation Program
               </h3>
               <p className="text-sm text-muted mb-4">1-Year Program</p>
@@ -129,8 +129,8 @@ export default function Home() {
                 your puppy through their critical first year.
               </p>
             </div>
-            <div className="bg-background p-8 rounded-xl border border-border">
-              <h3 className="text-xl font-semibold mb-2 text-accent">
+            <div className="bg-background p-8 rounded-md border border-border">
+              <h3 className="text-lg font-bold uppercase tracking-wide mb-2 text-accent">
                 Service Dog
               </h3>
               <p className="text-sm text-muted mb-4">2-Year Program</p>
@@ -139,8 +139,8 @@ export default function Home() {
                 puppyhood through certification.
               </p>
             </div>
-            <div className="bg-background p-8 rounded-xl border border-border">
-              <h3 className="text-xl font-semibold mb-2 text-accent">
+            <div className="bg-background p-8 rounded-md border border-border">
+              <h3 className="text-lg font-bold uppercase tracking-wide mb-2 text-accent">
                 Private Training
               </h3>
               <p className="text-sm text-muted mb-4">Ongoing</p>
@@ -162,8 +162,8 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="mx-auto max-w-5xl px-6 py-16 md:py-20">
-        <div className="bg-warm/50 rounded-2xl p-8 md:p-12 text-center">
+      <section className="mx-auto max-w-5xl px-6 py-12 md:py-16">
+        <div className="bg-accent/5 border border-accent/20 rounded-md p-8 md:p-12 text-center">
           <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-foreground">
             Ready to Start the Journey?
           </h2>
@@ -173,7 +173,7 @@ export default function Home() {
           </p>
           <Link
             href="/contact"
-            className="inline-flex items-center justify-center px-8 py-3 bg-accent text-white font-medium rounded-lg hover:bg-accent-hover transition-colors"
+            className="inline-flex items-center justify-center px-8 py-3 bg-accent text-white uppercase tracking-wide text-sm font-semibold rounded-md hover:bg-accent-hover transition-colors"
           >
             Get in Touch
           </Link>

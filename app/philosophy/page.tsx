@@ -11,7 +11,7 @@ export default function Philosophy() {
     <div>
       {/* Hero */}
       <section className="bg-card">
-        <div className="mx-auto max-w-5xl px-6 py-16 md:py-20">
+        <div className="mx-auto max-w-5xl px-6 py-12 md:py-16">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6 text-foreground">
               Philosophy
@@ -25,10 +25,10 @@ export default function Philosophy() {
       </section>
 
       {/* Main Content */}
-      <section className="mx-auto max-w-5xl px-6 py-16">
+      <section className="mx-auto max-w-5xl px-6 py-12">
         <div className="grid md:grid-cols-2 gap-8">
-          <div className="bg-card p-8 rounded-xl border border-border">
-            <h2 className="text-xl font-semibold mb-4 text-accent">
+          <div className="bg-card p-8 rounded-md border border-border">
+            <h2 className="text-lg font-bold uppercase tracking-wide mb-4 text-accent">
               Relationship First
             </h2>
             <p className="text-muted leading-relaxed">
@@ -39,8 +39,8 @@ export default function Philosophy() {
             </p>
           </div>
 
-          <div className="bg-card p-8 rounded-xl border border-border">
-            <h2 className="text-xl font-semibold mb-4 text-accent">
+          <div className="bg-card p-8 rounded-md border border-border">
+            <h2 className="text-lg font-bold uppercase tracking-wide mb-4 text-accent">
               Working With Independence
             </h2>
             <p className="text-muted leading-relaxed">
@@ -52,8 +52,8 @@ export default function Philosophy() {
             </p>
           </div>
 
-          <div className="bg-card p-8 rounded-xl border border-border">
-            <h2 className="text-xl font-semibold mb-4 text-accent">
+          <div className="bg-card p-8 rounded-md border border-border">
+            <h2 className="text-lg font-bold uppercase tracking-wide mb-4 text-accent">
               Clear Communication
             </h2>
             <p className="text-muted leading-relaxed">
@@ -65,8 +65,8 @@ export default function Philosophy() {
             </p>
           </div>
 
-          <div className="bg-card p-8 rounded-xl border border-border">
-            <h2 className="text-xl font-semibold mb-4 text-accent">
+          <div className="bg-card p-8 rounded-md border border-border">
+            <h2 className="text-lg font-bold uppercase tracking-wide mb-4 text-accent">
               Balanced Approach
             </h2>
             <p className="text-muted leading-relaxed">
@@ -78,8 +78,8 @@ export default function Philosophy() {
             </p>
           </div>
 
-          <div className="bg-card p-8 rounded-xl border border-border">
-            <h2 className="text-xl font-semibold mb-4 text-accent">
+          <div className="bg-card p-8 rounded-md border border-border">
+            <h2 className="text-lg font-bold uppercase tracking-wide mb-4 text-accent">
               Respect for Sensitivity
             </h2>
             <p className="text-muted leading-relaxed">
@@ -91,8 +91,8 @@ export default function Philosophy() {
             </p>
           </div>
 
-          <div className="bg-card p-8 rounded-xl border border-border">
-            <h2 className="text-xl font-semibold mb-4 text-accent">
+          <div className="bg-card p-8 rounded-md border border-border">
+            <h2 className="text-lg font-bold uppercase tracking-wide mb-4 text-accent">
               Engagement Over Obedience
             </h2>
             <p className="text-muted leading-relaxed">

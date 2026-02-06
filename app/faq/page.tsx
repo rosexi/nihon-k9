@@ -12,7 +12,7 @@ export default function FAQ() {
     <div>
       {/* Hero */}
       <section className="bg-card">
-        <div className="mx-auto max-w-5xl px-6 py-16 md:py-20">
+        <div className="mx-auto max-w-5xl px-6 py-12 md:py-16">
           <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-4 text-foreground">
             Frequently Asked Questions
           </h1>
@@ -23,7 +23,7 @@ export default function FAQ() {
       </section>
 
       {/* FAQ Content */}
-      <section className="mx-auto max-w-3xl px-6 py-16">
+      <section className="mx-auto max-w-3xl px-6 py-12">
         <dl className="divide-y divide-border">
           <div className="py-6">
             <dt className="font-semibold text-foreground mb-2">
@@ -66,7 +66,7 @@ export default function FAQ() {
           <p className="text-muted mb-6">Have a question that&apos;s not answered here?</p>
           <Link
             href="/contact"
-            className="inline-flex items-center justify-center px-8 py-3 bg-accent text-white font-medium rounded-lg hover:bg-accent-hover transition-colors"
+            className="inline-flex items-center justify-center px-8 py-3 bg-accent text-white uppercase tracking-wide text-sm font-semibold rounded-md hover:bg-accent-hover transition-colors"
           >
             Get in Touch
           </Link>

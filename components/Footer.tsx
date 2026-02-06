@@ -2,15 +2,15 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-card border-t border-border mt-auto">
+    <footer className="bg-foreground text-slate-300 mt-auto">
       <div className="mx-auto max-w-5xl px-6 py-12">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-8">
           {/* Brand */}
           <div>
-            <Link href="/" className="text-lg font-semibold text-foreground">
+            <Link href="/" className="text-lg text-white font-bold uppercase tracking-wide">
               NIHON K9
             </Link>
-            <p className="text-sm text-muted mt-1">
+            <p className="text-sm text-slate-400 mt-1">
               Specialized training for Japanese breeds
             </p>
           </div>
@@ -21,7 +21,7 @@ export default function Footer() {
               href="https://instagram.com/nihonk9"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 text-muted hover:text-accent transition-colors"
+              className="flex items-center gap-2 text-slate-400 hover:text-white transition-colors"
             >
               <svg
                 className="w-5 h-5"
@@ -39,7 +39,7 @@ export default function Footer() {
             </a>
             <a
               href="mailto:info@nihonk9.com"
-              className="flex items-center gap-2 text-muted hover:text-accent transition-colors"
+              className="flex items-center gap-2 text-slate-400 hover:text-white transition-colors"
             >
               <svg
                 className="w-5 h-5"
@@ -59,7 +59,7 @@ export default function Footer() {
             </a>
             <a
               href="tel:+15105604360"
-              className="flex items-center gap-2 text-muted hover:text-accent transition-colors"
+              className="flex items-center gap-2 text-slate-400 hover:text-white transition-colors"
             >
               <svg
                 className="w-5 h-5"
@@ -81,8 +81,8 @@ export default function Footer() {
         </div>
 
         {/* Copyright */}
-        <div className="mt-8 pt-8 border-t border-border">
-          <p className="text-xs text-muted/60 text-center">
+        <div className="mt-8 pt-8 border-t border-slate-700">
+          <p className="text-xs text-slate-500 text-center">
             &copy; {new Date().getFullYear()} Nihon K9. All rights reserved.
           </p>
         </div>

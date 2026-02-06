@@ -15,9 +15,9 @@ export default function Header() {
 
   return (
     <header className="bg-card border-b border-border">
-      <nav className="mx-auto max-w-5xl px-6 py-5">
+      <nav className="mx-auto max-w-5xl px-6 py-4">
         <div className="flex items-center justify-between">
-          <Link href="/" className="text-xl font-semibold tracking-tight text-foreground">
+          <Link href="/" className="text-base font-bold uppercase tracking-tight text-foreground">
             NIHON K9
           </Link>
           <ul className="flex items-center gap-8">
@@ -25,9 +25,9 @@ export default function Header() {
               <li key={item.name}>
                 <Link
                   href={item.href}
-                  className={`text-sm font-medium transition-colors ${
+                  className={`text-sm font-medium tracking-wide transition-colors ${
                     pathname === item.href
-                      ? "text-accent"
+                      ? "text-accent border-b-2 border-accent pb-0.5"
                       : "text-muted hover:text-foreground"
                   }`}
                 >

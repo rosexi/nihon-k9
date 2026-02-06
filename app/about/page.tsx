@@ -12,7 +12,7 @@ export default function About() {
     <div>
       {/* Hero */}
       <section className="bg-card">
-        <div className="mx-auto max-w-5xl px-6 py-16 md:py-20">
+        <div className="mx-auto max-w-5xl px-6 py-12 md:py-16">
           <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-4 text-foreground">
             About Me
           </h1>
@@ -23,10 +23,10 @@ export default function About() {
       </section>
 
       {/* Main Content */}
-      <section className="mx-auto max-w-5xl px-6 py-16">
+      <section className="mx-auto max-w-5xl px-6 py-12">
         <div className="grid md:grid-cols-2 gap-12 items-start">
           {/* Image */}
-          <div className="aspect-[4/5] relative rounded-xl overflow-hidden shadow-md">
+          <div className="aspect-[4/5] relative rounded-md overflow-hidden shadow-sm">
             <Image
               src="/about.jpg"
               alt="Trainer with Shikoku Ken"
